@@ -275,9 +275,60 @@ cursor: pointer;
     text-decoration-color: #7b553470;
 }
 
+section{
+    padding: 2rem 9%;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('./image/banner-bg.webp');
+    background-repeat: no-repeat;
+    background-position: left right;
+    background-size: cover;
+    padding-top: 20rem;
+    padding-bottom: 8rem;
+}
+
+.home .content{
+    text-align: center;
+    width: 60rem;
+}
+
+.home .content h3{
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.home .content h3 span{
+    color: var(--orange);
+}
+
+.home .content p{
+    color: var(--black);
+    font-size: 1.5rem;
+    padding: 1.5rem 1rem;
+}
+.home .content a{
+    text-decoration: none;
+}
+
 
 
 /* Media Queries */
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width :991px){
    html{
