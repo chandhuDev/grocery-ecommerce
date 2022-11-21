@@ -16,6 +16,7 @@
     box-sizing: border-box;
     transition:all .2s linear;
     font-family: 'Nunito', sans-serif;
+    text-decoration: none;
     
 }
 .header{
@@ -304,17 +305,58 @@ section{
 .home .content h3 span{
     color: var(--orange);
 }
-
 .home .content p{
     color: var(--black);
     font-size: 1.5rem;
     padding: 1.5rem 1rem;
 }
-.home .content a{
-    text-decoration: none;
+.heading{
+    text-align: center;
+    padding: 1rem 0;
+    font-size:3rem;
+    font-weight: 900;
 }
 
+.heading span{
+    background: var(--orange);
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+}
 
+.features .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+} 
+.features .box-container .box{
+    display: flex;
+    align-items: center;
+    padding:1rem 1rem;
+    flex-direction: column;
+}
+
+.features .box-container .box:nth-child(2) img{
+    height: 150%
+}
+
+.features .box-container .box:nth-child(2){
+    padding-top: 1rem;
+}
+
+.features .box-container .box:nth-child(3) img{
+    height: 145%
+}
+
+.features .box-container .box h3{
+ font-size: 2.2rem;
+}
+
+.features .box-container .box p{
+    font-size: 1.5rem;
+    text-align: center;
+}
 
 /* Media Queries */
 
